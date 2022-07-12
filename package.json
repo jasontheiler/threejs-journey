@@ -1,0 +1,29 @@
+{
+  "name": "threejs-journey",
+  "private": true,
+  "license": "GPL-3.0",
+  "packageManager": "pnpm@7.5.0",
+  "scripts": {
+    "fmt": "prettier --write .",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@dimforge/rapier3d-compat": "^0.8.1",
+    "@fontsource/inter": "^4.5.11",
+    "@iconify/json": "^2.1.73",
+    "@tweakpane/core": "^1.1.0",
+    "@tweakpane/plugin-essentials": "^0.1.4",
+    "@types/three": "^0.141.0",
+    "@unocss/nuxt": "^0.43.2",
+    "@vueuse/nuxt": "^8.9.0",
+    "motion": "^10.11.2",
+    "nuxt": "^3.0.0-rc.4",
+    "prettier": "^2.7.1",
+    "three": "^0.142.0",
+    "three-stdlib": "^2.12.1",
+    "tweakpane": "^3.1.0",
+    "unocss": "^0.43.2"
+  }
+}
