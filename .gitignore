@@ -1,7 +1,7 @@
-.vscode
-.nuxt
-.output
-node_modules
+.vscode/
+.nuxt/
+.output/
+node_modules/
 *.local
 *.log
 .DS_Store
