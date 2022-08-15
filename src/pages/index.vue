@@ -35,6 +35,15 @@ definePageMeta({ layout: "empty" });
 
         <li>
           <NuxtLink
+            :to="{ name: 'device-orientation-controls' }"
+            class="hover:(text-gray-500)"
+          >
+            Device orientation controls
+          </NuxtLink>
+        </li>
+
+        <li>
+          <NuxtLink
             :to="{ name: 'playground' }"
             class="text-gray-700 hover:(text-gray-500)"
           >
