@@ -17,6 +17,7 @@
     "@tweakpane/plugin-essentials": "^0.1.4",
     "@types/three": "^0.143.0",
     "@unocss/nuxt": "^0.45.5",
+    "@vueuse/math": "^9.1.0",
     "@vueuse/nuxt": "^9.1.0",
     "motion": "^10.13.2",
     "nuxt": "^3.0.0-rc.6",

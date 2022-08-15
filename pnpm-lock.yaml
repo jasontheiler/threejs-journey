@@ -8,6 +8,7 @@ specifiers:
   '@tweakpane/plugin-essentials': ^0.1.4
   '@types/three': ^0.143.0
   '@unocss/nuxt': ^0.45.5
+  '@vueuse/math': ^9.1.0
   '@vueuse/nuxt': ^9.1.0
   motion: ^10.13.2
   nuxt: ^3.0.0-rc.6
@@ -25,6 +26,7 @@ devDependencies:
   '@tweakpane/plugin-essentials': 0.1.4_tweakpane@3.1.0
   '@types/three': 0.143.0
   '@unocss/nuxt': 0.45.5
+  '@vueuse/math': 9.1.0
   '@vueuse/nuxt': 9.1.0
   motion: 10.13.2
   nuxt: 3.0.0-rc.6
@@ -1319,6 +1321,16 @@ packages:
       vue: '>=3'
     dependencies:
       vue: 3.2.37
+    dev: true
+
+  /@vueuse/math/9.1.0:
+    resolution: {integrity: sha512-GoMozWT1UyiSOg5rXAaFOSRxySES/UcIpUY2rpQp+2Y1whnolb7KPUq/2n/sUs65SUCLHYnVgqvbEf0HHPQtPw==}
+    dependencies:
+      '@vueuse/shared': 9.1.0
+      vue-demi: 0.13.2
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
     dev: true
 
   /@vueuse/metadata/9.1.0:
