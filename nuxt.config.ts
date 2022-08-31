@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     strict: true,
   },
 
-  srcDir: "./src",
+  srcDir: "./src/",
 
   build: {
     transpile: ["motion"],

@@ -8,23 +8,24 @@
     "build": "nuxi build",
     "start": "node ./.output/server/index.mjs"
   },
-  "packageManager": "pnpm@7.9.0",
+  "packageManager": "pnpm@7.9.5",
   "devDependencies": {
     "@dimforge/rapier3d-compat": "^0.9.0",
     "@fontsource/inter": "^4.5.12",
-    "@iconify/json": "^2.1.88",
+    "@iconify/json": "^2.1.100",
     "@tweakpane/core": "^1.1.0",
-    "@tweakpane/plugin-essentials": "^0.1.4",
-    "@types/three": "^0.143.0",
-    "@unocss/nuxt": "^0.45.5",
-    "@vueuse/math": "^9.1.0",
-    "@vueuse/nuxt": "^9.1.0",
-    "motion": "^10.13.2",
-    "nuxt": "^3.0.0-rc.6",
+    "@tweakpane/plugin-essentials": "^0.1.5",
+    "@types/three": "^0.143.2",
+    "@unocss/nuxt": "^0.45.13",
+    "@vueuse/core": "^9.1.1",
+    "@vueuse/math": "^9.1.1",
+    "@vueuse/nuxt": "^9.1.1",
+    "motion": "^10.14.1",
+    "nuxt": "^3.0.0-rc.8",
     "prettier": "^2.7.1",
     "three": "^0.143.0",
-    "three-stdlib": "^2.13.0",
+    "three-stdlib": "^2.14.3",
     "tweakpane": "^3.1.0",
-    "unocss": "^0.45.5"
+    "unocss": "^0.45.13"
   }
 }
