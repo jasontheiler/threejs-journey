@@ -38,7 +38,7 @@ const onMotioncomplete = () => {
       <Motion
         :initial="{ transform: 'translateX(-100%)' }"
         :animate="{ transform: `translateX(-${100 - progress!}%)` }"
-        class="w-full h-0.5 bg-red"
+        class="w-full h-0.5 bg-white"
         @motioncomplete="onMotioncomplete"
       />
     </Motion>
