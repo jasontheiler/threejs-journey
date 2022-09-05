@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   srcDir: "./src/",
 
   build: {
-    transpile: ["motion"],
+    transpile: ["motion", "@motionone/vue"],
   },
 
   buildModules: [
